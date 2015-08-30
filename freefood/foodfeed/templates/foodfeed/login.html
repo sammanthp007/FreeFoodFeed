@@ -1,0 +1,54 @@
+{% extends 'foodfeed/base.html' %}
+
+{% block body-content %}
+
+<div class="container below-navbar">
+	<div class="row ">
+		<div class="col l4 offset-l4 m4 offset-m4 s12">
+		<form method="post" action="{% url 'foodfeed:login' %}">
+		{% csrf_token %}
+			<fieldset  class="grey darken-1">
+				<legend></legend>
+				<div class="row">
+					<div class="col l10 offset-l1">
+						<div class="input-field">
+							<input placeholder="  Username" id="username" type="text" class="validate" name="username">
+							<label for="username"></label>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col l10 offset-l1">
+						<div class="input-field">
+							<input placeholder="  Password" id="password" type="password" class="validate" name="password">
+							<label for="password"></label>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col l8 offset-l4 m8 offset-m4 s12">
+						<button class="btn waves-effect waves-light" type="submit">Login<i class="mdi-content-send right"></i>
+						</button>
+					</div>
+				</div>
+				<input type="hidden" name="next" value="{% url 'foodfeed:dashboard' %}"/>
+				<div class="row">
+					<div class="divider"></div>
+					<div class="section">
+						<div class="col l10 offset-l1 m10 offset-m1 s12 ">
+							<a class="grey-text text-darken-3" href="{% url 'foodfeed:login' %}"><u>Forgot Username or Password</u></a>
+							<br>
+							<a class="col l5 offset-l4 m4 offset-m4 s12 grey-text text-darken-3" href = "{% url 'foodfeed:index' %}"><u>Sign Up</u> </a>
+							<br>
+							<div class="red-text">
+								<h5>{{ error }}</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+{% endblock %}

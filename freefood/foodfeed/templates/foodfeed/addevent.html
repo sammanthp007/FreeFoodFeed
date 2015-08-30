@@ -1,0 +1,111 @@
+{% extends 'foodfeed/base.html' %}
+
+{% block body-content %}
+
+<h2>Update Event</h2>
+
+<form method="get" action="{% url 'foodfeed:addevent' %}">
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Name" id="name" type="text" class="validate" name="name">
+				<label for="name"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Organizers 1" id="organizers1" type="text" class="validate" name="organizers1">
+				<label for="organizers1"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Organizers 2" id="organizers2" type="text" class="validate" name="organizers2">
+				<label for="organizers2"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Street 1 address" id="st1" type="text" class="validate" name="st1">
+				<label for="st1"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Street 2 address" id="st2" type="text" class="validate" name="st2">
+				<label for="st2"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Zip code" id="zipcode" type="text" class="validate" name="zipcode">
+				<label for="zipcode"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="City" id="city" type="text" class="validate" name="city">
+				<label for="city"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="State" id="state" type="text" class="validate" name="state">
+				<label for="state"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Description" id="description" type="text" class="validate" name="description">
+				<label for="description"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Date 2015-09-01" id="date" type="text" class="validate" name="date">
+				<label for="date"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Time" id="event_time" type="text" class="validate" name="event-time">
+				<label for="event_time"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l10 offset-l1">
+			<div class="input-field">
+				<input placeholder="Finished" id="finished" type="text" class="validate" name="finished">
+				<label for="finished"></label>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col l8 offset-l4 m8 offset-m4 s12">
+			<button class="btn waves-effect waves-light" type="submit">Update<i class="mdi-content-send right"></i>
+			</button>
+		</div>
+	</div>
+
+{% endblock %}

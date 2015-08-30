@@ -1,0 +1,1 @@
+web: gunicorn freefood.wsgi --log-file -

@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang='eng'>
+	<head>
+	    <!-- for proper rendering and touch zooming in mobiles-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+		<title>
+			{{ title }}
+		</title>
+	    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+
+	    <!-- import materialize -->
+	    	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+	<!-- Compiled and minified CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+	  <!-- Compiled and minified JavaScript -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+
+	    <!-- self made stylesheet -->
+	    <link rel="stylesheet" type="text/css" href="{% static 'foodfeed/css/style.css' %}"/>
+	</head>
+	<body>
+	{% block body-content %}
+
+	{% endblock %}
+	</body>
+</html>
