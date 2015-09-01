@@ -14,3 +14,8 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "freefood.settings")
 
 application = get_wsgi_application()
+
+#this is after I made changes to satisfy heroku
+from whitenoise.django import DjangoWhiteNoise
+
+application = DjangoWhiteNoise(application)
