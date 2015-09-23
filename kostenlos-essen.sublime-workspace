@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fin",
+				"find_hcf"
+			],
+			[
+				"find",
+				"find_lcm"
+			],
+			[
+				"base",
+				"base_list"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"st",
+				"st2"
+			],
+			[
+				"time",
+				"timeend"
+			],
+			[
+				"orga",
+				"organizers2"
+			],
+			[
+				"or",
+				"organizers1"
+			],
+			[
+				"t",
+				"timeend"
+			],
+			[
+				"ti",
+				"timestart"
+			],
+			[
+				"s",
+				"state"
+			],
+			[
+				"log",
+				"login_required"
+			],
+			[
+				"password",
+				"password_change_done"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"pr",
+				"prime_numbers"
+			],
+			[
+				"prime",
+				"prime_numbers"
+			],
+			[
+				"pri",
+				"prime_number"
+			],
+			[
+				"factor_of",
+				"factor_of_five"
+			],
+			[
+				"fac",
+				"factor_of_three"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 232.0,
+		"last_filter": "pro",
+		"selected_items":
+		[
+			[
+				"pro",
+				"Project: Edit Project"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/stark/laufende/kostenlos-essen/freefood",
+		"/home/stark/laufende/kostenlos-essen/freefood/freefood"
+	],
+	"file_history":
+	[
+		"/home/stark/laufende/kostenlos-essen/freefood/freefood/settings.py",
+		"/home/stark/merosaaman/kurier/transport/views.py",
+		"/home/stark/merosaaman/kurier/transport/templates/transport/index.html",
+		"/home/stark/merosaaman/kurier/bison_accelerate/settings.py",
+		"/home/stark/.config/qtile/config.py",
+		"/home/stark/laufende/kostenlos-essen/freefood/freefood/wsgi.py",
+		"/home/stark/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/views.py",
+		"/home/stark/laufende/kostenlos-essen/freefood/freefood.sublime-project",
+		"/home/stark/sonstiges/tk.py",
+		"/home/stark/laufende/roshan-bruder/missing-number.py",
+		"/home/stark/laufende/leonhard/funf.py",
+		"/home/stark/laufende/leonhard/drei.py",
+		"/home/stark/seiben.py",
+		"/home/stark/laufende/leonhard/neun.py",
+		"/home/stark/laufende/leonhard/acht.py",
+		"/home/stark/laufende/leonhard/vier.py",
+		"/home/stark/Downloads/fib.S",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/urls.py",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/templates/foodfeed/dashboard.html",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/templates/foodfeed/index.html",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/models.py",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/templates/foodfeed/addevent.html",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/templates/foodfeed/base.html",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/templates/foodfeed/signup.html",
+		"/mnt/home/gothu/Desktop/python/nutrihu/summer/settings.py",
+		"/mnt/home/gothu/Desktop/python/nutrihu/summer/wsgi.py",
+		"/mnt/home/gothu/Desktop/python/Howard/summer2015/summer2015/settings.py",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/static/foodfeed/css/style.css",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/templates/foodfeed/login.html",
+		"/home/stark/laufende/kostenlos-essen/freefood/freefood/urls.py",
+		"/home/stark/with_shash/project_shash/project_shash/settings.py",
+		"/home/stark/laufende/kostenlos-essen/freefood/foodfeed/admin.py",
+		"/home/stark/with_shash/project_shash/katentx/models.py",
+		"/home/stark/.zshrc.pre-oh-my-zsh",
+		"/home/stark/.zshrc",
+		"/home/stark/laufende/leonhard/zwie.py",
+		"/home/stark/laufende/leonhard/eine.py",
+		"/home/stark/with_shash/project_shash/project_shash/urls.py",
+		"/home/stark/with_shash/project_shash/katentx/templates/katentx/base.html",
+		"/home/stark/with_shash/project_shash/katentx/templates/katentx/index.html",
+		"/home/stark/with_shash/project_shash/katentx/templates/katentx/dataInput.html",
+		"/home/stark/with_shash/project_shash/katentx/views.py",
+		"/home/stark/with_shash/project_shash/katentx/urls.py",
+		"/home/stark/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/stark/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"count",
+			" %",
+			"def"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"final_lcm"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 270.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "kostenlos-essen.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
